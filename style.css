@@ -30,8 +30,8 @@ header {
 .overlay {
     text-align: center;
     color: #fff;
-    width: 300px;
-    height: 250px;
+    width: 500px;
+    height: 450px;
     background: rgba(255, 255, 255, 0.1);
     padding: 2rem;
     border-radius: 15px;
@@ -55,7 +55,7 @@ h1 {
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-bottom: 2rem;
     animation-delay: 0.6s;
 }
