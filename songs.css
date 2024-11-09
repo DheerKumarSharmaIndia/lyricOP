@@ -1,0 +1,126 @@
+/* font-family: "Playwrite GB S", serif;
+  font-family: "Cormorant", serif;*/
+* {
+    transition: all 0.3s;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    background-color: #f0f0f0;
+    padding: 20px;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #7d7de8, #f4a261);
+    background-attachment: fixed;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+    background: linear-gradient(135deg, #060647be, #e4751ae5);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #8383f5, #ffffff42);
+    border-radius: 20px;
+}
+
+header {
+    background-color: #0000002f;
+    border: 1px solid rgba(255, 255, 255, 0.329);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #0059ff;
+}
+
+#songDetails,
+#lyricsDisplay,
+#songList {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+
+#searchSection {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: white;
+    padding: 15px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:hover {
+    border-color: #999;
+}
+
+input[type="text"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+#lyricsText {
+    white-space: pre-wrap;
+    text-transform: capitalize;
+    letter-spacing: 0.1px;
+    text-align: center;
+    font-weight: 300;
+    background: rgba(255, 228, 196, 0.589);
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+li {
+    cursor: pointer;
+}
+
+li:hover {
+
+    text-decoration: underline;
+}
+
+#loadMore {
+    width: 100%;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#loadMore:hover {
+    color: #fff;
+    background-color: #777777;
+}

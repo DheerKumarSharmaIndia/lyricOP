@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kishore Kumar Songs</title>
+    <link rel="stylesheet" href="songs.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <h1>Kishore Kumar Songs</h1>
+        <p>Explore the timeless classics of Kishore Kumar!</p>
+    </header>
+
+    <main>
+        <section id="searchSection">
+            &nbsp;&nbsp;<a href="index.html" title="BACK" style="color: black; text-decoration: none;"><i class="fa-solid fa-arrow-left"></i></a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="searchBar" placeholder="Search for a song..." oninput="searchSongs()">
+            
+        </section>
+
+        <section id="songList">
+            <h2>Available Songs</h2>
+            <ol id="songs"></ol>
+            <button id="loadMore" onclick="loadMoreSongs()">Load More Songs</button>
+        </section>
+
+        <div id="songDetails" style="display: none;">
+            <h2 id="songTitle">Song Title</h2>
+            <p><strong>Movie :</strong> <span id="songMovie"></span></p>
+            <p><strong>Release Date :</strong> <span id="songReleaseDate"></span></p>
+            <p><strong>Singers :</strong> <span id="songSingers"></span></p>
+            <p><strong>Composer :</strong> <span id="songComposer"></span></p>
+            <hr>
+            <strong>Lyrics :</strong>
+            <p id="lyricsText">Lyrics will be displayed here.</p>
+            <p style="text-align: center; font-weight: 600;">THE END</p>
+            <hr>
+        </div>
+        
+    </main>
+
+    <footer>
+        <h3>More Songs Will Be Uploaded Soon</h3>
+        <p>&copy; 2024 Kishore Kumar Songs Collection</p>
+        <pre>MADE WITH LOVE 💖 BY DHEER KUMAR SHARMA</pre>
+    </footer>
+
+    <script src="songs.js"></script>
+</body>
+</html>
